@@ -8,6 +8,8 @@ Required:
 -Insert MicroSD Card into BBB and connect board to internet over ethernet
 -Connect power cord from BBB to laptop
 -run pUTTY and ssh 192.168.7.2 to control the BBB over ssh from the laptop
+-default username: ubuntu, default password: temppwd
+-reset password using "$ passwd" command
 -SET UP STATIC IP
   $ sudo nano /etc/network/interface
   
@@ -18,6 +20,7 @@ Required:
    
   SAVE AND REBOOT
 
--Using putty, connect to that IP, powering the BBB using power supply rather than laptop
+-Using putty, connect to that IP address, powering the BBB using power supply rather than laptop
 $ cd ~
-$ git clone 
+$ git clone https://github.com/DyllonDunton1/Foxy-Fitzroy-BBB-RevC.git
+$ ./Foxy-Fitzroy-BBB-RevC/foxySetup.sh
