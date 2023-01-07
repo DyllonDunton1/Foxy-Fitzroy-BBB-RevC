@@ -1,5 +1,5 @@
 # Foxy-Fitzroy-BBB-RevC
-##Shell Script to set up Foxy Fitzroy and all dependencies on a Beagle Bone Black Rev C. Made to expedite setup for 8 boards that will make a cluster.
+## Shell Script to set up Foxy Fitzroy and all dependencies on a Beagle Bone Black Rev C. Made to expedite setup for 8 boards that will make a cluster.
 
 #### FIRST STEPS
 - Download Ubuntu20.04.5 LTS minimal version for Beagle Bone Black Rev C: https://rcn-ee.com/rootfs/ubuntu-armhf-focal-minimal/2023-01-06/
