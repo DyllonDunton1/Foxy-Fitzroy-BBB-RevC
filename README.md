@@ -3,7 +3,7 @@
 
 #### FIRST STEPS
 - Download Ubuntu20.04.5 LTS minimal version for Beagle Bone Black Rev C: https://rcn-ee.com/rootfs/ubuntu-armhf-focal-minimal/2023-01-06/
- -Use BalenaEtcher to write the image to an SD card (Preferred >16GB)
+- Use BalenaEtcher to write the image to an SD card (Preferred >16GB)
 - Insert MicroSD Card into BBB and connect board to internet over ethernet
 - Connect power cord from BBB to laptop
 - run pUTTY and ssh 192.168.7.2 to control the BBB over ssh from the laptop
@@ -23,6 +23,6 @@
 #### RUN SETUP
 
 Using putty, connect to that IP address, powering the BBB using power supply rather than laptop
-$ `cd ~`
-$ `git clone https://github.com/DyllonDunton1/Foxy-Fitzroy-BBB-RevC.git`
-$ `./Foxy-Fitzroy-BBB-RevC/foxySetup.sh`
+- $ `cd ~`
+- $ `git clone https://github.com/DyllonDunton1/Foxy-Fitzroy-BBB-RevC.git`
+- $ `./Foxy-Fitzroy-BBB-RevC/foxySetup.sh`
